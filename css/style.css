@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+   
+    h2{
+        color: orange;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    /*header*/
+
+    .header{
+        background-color: gray;
+        text-align:center;
+        align-items:center;
+        padding:75px;
+    }
+
+    .header p{
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    /*sub-header*/
+
+    .sub-header{
+        background-color: rgb(236, 236, 223);
+        padding: 155px;
+    }
+
+    .sub-header h2{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+  
+    .grid{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr ;
+        gap: 150px;
+    }
+
+    .grid >div {
+        color:black;
+        font-weight: bold;
+        margin-top: 35px;
+    }
+
+    /*sub-section*/
+    .sub-section{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        text-align: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+        padding: 75PX;
+        
+    }
+
+    .sub-section .img-1, .img-2 img{
+        border-radius:15% ;
+    }
+
+
+    .sub-section-h-p{
+        text-align: center;
+        align-items: center;
+    }
+
+    .sub-section-h-p h1{
+        color:orange;
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .sub-section-h-p p{
+        text-align: center;
+    }
+    
+    /*subsub-section*/
+    
+    .subsub-section {
+        background-color: orangered;
+        color: white;
+    }
+
+    .subsub-section-img-h2-p{
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+        padding: 75px;
+        align-items: center;
+    }
+
+    .subsub-section-img-h2-p img{
+        border-radius: 5%;
+        margin-left: 45px;
+    }
+
+    .subsub-section-img-h2-p h2{
+        text-align: center;
+        color: white;
+        font-size: 45px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+    }
+
+    .subsub-section-img-h2-p p{
+        text-align: center;
+        font-size: 20px;
+        
+    }
+ 
